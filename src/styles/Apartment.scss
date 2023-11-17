@@ -1,0 +1,18 @@
+.apartment {
+    background-image: linear-gradient(to top, #863535, #ff6060);
+    border-radius: 5px;
+    display: grid;
+    flex-basis: 30%;
+    align-items: end;
+    min-width: 340px;
+    min-height: 340px;
+  
+    .apartmentSub {
+      width: 30%;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      padding: 1rem;
+      font-size: 18px;
+    }
+  }
+  
