@@ -1,20 +1,24 @@
-// Définition des variables Sass
-$primary-color: #FF6060;
-$font-family: 'Montserrat', sans-serif;
-$link-margin-right: 10px;
-$link-margin-left: 20px;
+@import"../styles/variable/variable.scss";
 
-// Styles SCSS
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   padding-inline: 5rem;
+  margin-bottom: 2rem;
+
+    @media only screen and (max-width: 768px) {
+      padding-inline: 2rem;
+}
 
   .navbarLogo img {
     width: 205.32px;
     height: 68px;
+      @media only screen and (max-width: 768px) {
+        width:145px;
+        height:47px;
+}
   }
 
   .navbarItems {
@@ -24,7 +28,7 @@ nav {
     display: flex;
 
     .navbarLink {
-      color: $primary-color;
+      color: $color-primary;
       text-decoration: none;
       font-family: $font-family;
       font-weight: 500;
@@ -33,10 +37,16 @@ nav {
       transition: text-decoration 0.2s;
       margin-right: $link-margin-right;
       margin-left: $link-margin-left;
+      @media only screen and (max-width: 768px) {
+        font-size: 14px;
+        text-transform: uppercase;
+  }
 
       &:hover {
         text-decoration: underline;
-        text-decoration-color: $primary-color;
+        text-decoration-color: $color-primary;
+
+        
       }
     }
   }

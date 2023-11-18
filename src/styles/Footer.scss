@@ -1,3 +1,5 @@
+@import"../styles/variable/variable.scss";
+
 body {
     margin: 0;
     padding: 0;
@@ -5,9 +7,10 @@ body {
   
 
 .footer{
-    background-color: black;
-    color: white;
-    padding: 50px;
+    background-color: $footer-backgroud-color;
+    color: $color-tertiary;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     min-height: 100px;
     display: flex;
     justify-content: center;
@@ -15,6 +18,8 @@ body {
     flex-direction: column;
     column-gap: 3rem;
     width: 100%;
+    margin-top: 5rem;
+
 }
 
 .footerLogo{
@@ -32,4 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-width: 768px) {
+       font-size: 16px;
+  }
 }

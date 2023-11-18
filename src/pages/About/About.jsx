@@ -1,9 +1,19 @@
 import React from 'react'
+import Banner from '../../layout/Banner/Banner'
+import ApartmentDescription from '../../components/ApartmentDescription/ApartmentDescription'
+import "../../styles/AboutDescription.scss"
+import "../../styles/About.scss"
 
 function About() {
   return (
     <div>
-      <h1>A propos</h1>
+      <Banner />
+      <div className="aboutContainer">
+        <ApartmentDescription />
+        <ApartmentDescription />
+        <ApartmentDescription />
+        <ApartmentDescription />
+      </div>
     </div>
   )
 }

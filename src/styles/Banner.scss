@@ -11,8 +11,10 @@
   position: relative;
   margin: auto;
   border-radius: 2rem;
-  margin-top: 3rem;
   margin-bottom: 2rem;
+  @media only screen and (max-width: 768px) {
+    height: 111px;
+}
 
   &:before {
     content: '';
@@ -39,5 +41,14 @@
     text-align: center;
     white-space: wrap;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+      align-items: flex-start;
+      white-space: normal;
+  }
   }
 }

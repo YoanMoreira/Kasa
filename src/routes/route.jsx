@@ -6,7 +6,7 @@ import Main from "../layout/Main/Main.jsx";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Lodgment from "../pages/Lodgment/Lodgment.jsx";
 import About from "../pages/About/About.jsx";
-import  Error  from "../pages/Error/Error.jsx";
+import Error from "../pages/Error/Error.jsx";
 
 const HeaderFooterLayout = () => {
   return (
