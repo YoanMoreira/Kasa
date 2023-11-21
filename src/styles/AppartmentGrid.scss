@@ -1,0 +1,22 @@
+@import"../styles/variable/variable.scss";
+
+.grid{
+    background-color: $grid-background-dark;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-around;
+    padding: 4rem;
+    margin-bottom: 3rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        justify-content: center;
+        background-color: $grid-background-light;
+        padding: 0;
+    }
+}
+

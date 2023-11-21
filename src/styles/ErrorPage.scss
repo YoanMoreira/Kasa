@@ -1,0 +1,30 @@
+@import"../styles/variable/variable.scss";
+
+.errorPage{
+    color: $color-primary;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    h1{
+        font-size: 288px;
+        margin-block: 0;
+        @media only screen and (max-width: 768px) {
+            font-size: 96px;
+        }
+    }
+    h2{
+        font-size: 38px;
+        margin-bottom: 10rem;
+        @media only screen and (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+    a{
+        font-size: 18px;
+        color: $color-primary;
+        text-decoration: underline;
+        @media only screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+    }  
+}
