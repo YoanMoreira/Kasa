@@ -14,11 +14,6 @@ Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour
 La page se rechargera automatiquement lorsque vous apportez des modifications.\
 Vous pouvez également voir les erreurs de lint dans la console.
 
-### `npm test`
-
-Démarre le testeur en mode interactif.\
-Consultez la section sur [l'exécution des tests](https://facebook.github.io/create-react-app/docs/running-tests) pour plus d'informations.
-
 ### `npm run build`
 
 Construit l'application pour la production dans le dossier `build`.\
