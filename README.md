@@ -39,32 +39,3 @@ Au lieu de cela, elle copiera tous les fichiers de configuration et les dépenda
 
 Vous n'êtes pas obligé d'utiliser `eject`. L'ensemble de fonctionnalités préconfigurées convient aux déploiements petits et moyens, et vous ne devriez pas vous sentir obligé de l'utiliser. Cependant, nous comprenons que cet outil ne serait pas utile si vous ne pouviez pas le personnaliser lorsque vous êtes prêt.
 
-## En savoir plus
-
-Vous pouvez en apprendre davantage dans la [documentation de Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
-
-Pour apprendre React, consultez la [documentation React](https://reactjs.org/).
-
-### Fractionnement de Code
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyse de la Taille du Bundle
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Création d'une Application Web Progressive
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Configuration Avancée
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Déploiement
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### Échec de la Minification avec `npm run build`
-
-Cette section a été déplacée ici : [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
