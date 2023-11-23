@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// Composant Banniere : Affiche une bannière avec une image, un fond sombre et du texte.
 function Banniere({ image, texte }) {
   return (
     <div className="banner">
