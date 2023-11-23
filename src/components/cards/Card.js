@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Composant Card : Représente une carte avec une image et un titre.
 function Card({image, title}) {
     return (
       <div className="card">
